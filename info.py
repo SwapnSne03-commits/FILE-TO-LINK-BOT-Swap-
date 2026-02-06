@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'CantarellaBots')
+NAME = environ.get('name', 'Graduate_Movies')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
