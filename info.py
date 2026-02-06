@@ -8,23 +8,23 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+ADMINS = [int(i) for i in environ.get('ADMINS', '7859995064').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1002612579654").split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'your_swap_bot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'GM_F2L_Bot')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/cantarellabots')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/graduate_movies')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/graduate_movies')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/graduate_movies')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/graduate_movies')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002900228022'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002900228022'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002900228022'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002900228022'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003384592518"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -49,8 +49,8 @@ DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://ibb.co/mVkSySr7")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/mVkSySr7')
-PICS = environ.get('PICS', 'https://ibb.co/mVkSySr7')
-FILE_PIC = environ.get('FILE_PIC', 'https://ibb.co/mVkSySr7')
+PICS = environ.get('PICS', 'https://i.ibb.co/wNm9v1fM/photo-2025-12-22-05-05-07-7586544010185932804.jpg')
+FILE_PIC = environ.get('FILE_PIC', 'https://i.ibb.co/wNm9v1fM/photo-2025-12-22-05-05-07-7586544010185932804.jpg')
 
 # 📝 __Captions__
 FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'CantarellaBots')
+NAME = environ.get('name', 'Gm F2L Botz')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
@@ -78,7 +78,7 @@ NO_PORT = str(environ.get("NO_PORT", "true")).lower() in ("true", "1", "yes")
 HAS_SSL = str(environ.get("HAS_SSL", "true")).lower() in ("true", "1", "yes")
 
 # URL Generation
-BIND_ADDRESS = environ.get("WEB_SERVER_BIND_ADDRESS", "")   ##without https:// paste the base url here 
+BIND_ADDRESS = environ.get("WEB_SERVER_BIND_ADDRESS", "render.com")   ##without https:// paste the base url here 
 FQDN = environ.get("FQDN", BIND_ADDRESS)
 
 if not FQDN.startswith("http"):
