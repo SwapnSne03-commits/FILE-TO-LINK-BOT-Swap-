@@ -24,7 +24,7 @@ BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002900228022'))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002900228022'))
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002900228022'))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002900228022'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003384592518"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-5104412331"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -78,7 +78,7 @@ NO_PORT = str(environ.get("NO_PORT", "true")).lower() in ("true", "1", "yes")
 HAS_SSL = str(environ.get("HAS_SSL", "true")).lower() in ("true", "1", "yes")
 
 # URL Generation
-BIND_ADDRESS = environ.get("WEB_SERVER_BIND_ADDRESS", "render.com")   ##without https:// paste the base url here 
+BIND_ADDRESS = environ.get("WEB_SERVER_BIND_ADDRESS", "file-to-link-bot-swap.onrender.com")   ##without https:// paste the base url here 
 FQDN = environ.get("FQDN", BIND_ADDRESS)
 
 if not FQDN.startswith("http"):
