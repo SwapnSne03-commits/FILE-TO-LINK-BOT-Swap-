@@ -8,7 +8,7 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '6111080528').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1002612579654").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'your_swap_bot')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'GM_F2L_Bot')
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'Gm F2L Botz')
+NAME = environ.get('name', 'CantarellaBots')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
